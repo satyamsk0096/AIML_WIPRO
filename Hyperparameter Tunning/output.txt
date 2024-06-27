@@ -1,0 +1,648 @@
++--------------------------------------------------------------------+
+| Configuration for experiment     train_model_2024-06-20_17-54-39   |
++--------------------------------------------------------------------+
+| Search algorithm                 BasicVariantGenerator             |
+| Scheduler                        HyperBandScheduler                |
+| Number of trials                 5                                 |
++--------------------------------------------------------------------+
+
+View detailed results here: C:/Users/sittu/ray_results/train_model_2024-06-20_17-54-39
+To visualize your results with TensorBoard, run: `tensorboard --logdir C:/Users/sittu/AppData/Local/Temp/ray/session_2024-06-20_17-54-33_873530_13724/artifacts/2024-06-20_17-54-39/train_model_2024-06-20_17-54-39/driver_artifacts`
+
+Trial status: 5 PENDING
+Current time: 2024-06-20 17:54:40. Total running time: 0s
+Logical resource usage: 4.0/4 CPUs, 0/0 GPUs
++--------------------------------------------------------------------------------------------+
+| Trial name                status       hidden_size            lr     batch_size     epochs |
++--------------------------------------------------------------------------------------------+
+| train_model_109cf_00000   PENDING               16   0.00191099              64          5 |
+| train_model_109cf_00001   PENDING                8   0.00302016              64         15 |
+| train_model_109cf_00002   PENDING               16   0.000233114             64         10 |
+| train_model_109cf_00003   PENDING                8   0.0036796               32         15 |
+| train_model_109cf_00004   PENDING               32   0.00186635              16          5 |
++--------------------------------------------------------------------------------------------+
+
+Trial train_model_109cf_00001 started with configuration:
++--------------------------------------------------+
+| Trial train_model_109cf_00001 config             |
++--------------------------------------------------+
+| batch_size                                    64 |
+| epochs                                        15 |
+| hidden_size                                    8 |
+| lr                                       0.00302 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00000 started with configuration:
++--------------------------------------------------+
+| Trial train_model_109cf_00000 config             |
++--------------------------------------------------+
+| batch_size                                    64 |
+| epochs                                         5 |
+| hidden_size                                   16 |
+| lr                                       0.00191 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00003 started with configuration:
++--------------------------------------------------+
+| Trial train_model_109cf_00003 config             |
++--------------------------------------------------+
+| batch_size                                    32 |
+| epochs                                        15 |
+| hidden_size                                    8 |
+| lr                                       0.00368 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00002 started with configuration:
++--------------------------------------------------+
+| Trial train_model_109cf_00002 config             |
++--------------------------------------------------+
+| batch_size                                    64 |
+| epochs                                        10 |
+| hidden_size                                   16 |
+| lr                                       0.00023 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00000 finished iteration 1 at 2024-06-20 17:54:53. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00000 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         3.06005 |
+| time_total_s                             3.06005 |
+| training_iteration                             1 |
+| mean_accuracy                            0.33333 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00001 finished iteration 1 at 2024-06-20 17:54:53. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00001 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         3.07617 |
+| time_total_s                             3.07617 |
+| training_iteration                             1 |
+| mean_accuracy                                0.3 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00000 finished iteration 2 at 2024-06-20 17:54:53. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00000 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         0.01695 |
+| time_total_s                             3.07699 |
+| training_iteration                             2 |
+| mean_accuracy                            0.23333 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00001 finished iteration 2 at 2024-06-20 17:54:53. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00001 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         0.01051 |
+| time_total_s                             3.08668 |
+| training_iteration                             2 |
+| mean_accuracy                                0.3 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00000 finished iteration 3 at 2024-06-20 17:54:53. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00000 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         0.02212 |
+| time_total_s                             3.09911 |
+| training_iteration                             3 |
+| mean_accuracy                                  0 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00001 finished iteration 3 at 2024-06-20 17:54:53. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00001 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         0.00921 |
+| time_total_s                             3.09589 |
+| training_iteration                             3 |
+| mean_accuracy                                0.3 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00000 finished iteration 4 at 2024-06-20 17:54:53. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00000 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                          0.0178 |
+| time_total_s                             3.11692 |
+| training_iteration                             4 |
+| mean_accuracy                                  0 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00001 finished iteration 4 at 2024-06-20 17:54:53. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00001 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                          0.0163 |
+| time_total_s                             3.11219 |
+| training_iteration                             4 |
+| mean_accuracy                            0.43333 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00000 finished iteration 5 at 2024-06-20 17:54:53. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00000 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                          0.0155 |
+| time_total_s                             3.13241 |
+| training_iteration                             5 |
+| mean_accuracy                            0.23333 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00000 completed after 5 iterations at 2024-06-20 17:54:53. Total running time: 14s
+
+Trial train_model_109cf_00001 finished iteration 5 at 2024-06-20 17:54:53. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00001 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                          0.0144 |
+| time_total_s                             3.12659 |
+| training_iteration                             5 |
+| mean_accuracy                            0.63333 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00001 finished iteration 6 at 2024-06-20 17:54:53. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00001 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         0.01673 |
+| time_total_s                             3.14332 |
+| training_iteration                             6 |
+| mean_accuracy                            0.63333 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00001 finished iteration 7 at 2024-06-20 17:54:53. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00001 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         0.01549 |
+| time_total_s                             3.15881 |
+| training_iteration                             7 |
+| mean_accuracy                            0.63333 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00001 finished iteration 8 at 2024-06-20 17:54:54. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00001 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         0.01273 |
+| time_total_s                             3.17154 |
+| training_iteration                             8 |
+| mean_accuracy                            0.63333 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00003 finished iteration 1 at 2024-06-20 17:54:54. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00003 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         3.15878 |
+| time_total_s                             3.15878 |
+| training_iteration                             1 |
+| mean_accuracy                            0.33333 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00001 finished iteration 9 at 2024-06-20 17:54:54. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00001 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         0.01824 |
+| time_total_s                             3.18979 |
+| training_iteration                             9 |
+| mean_accuracy                            0.63333 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00003 finished iteration 2 at 2024-06-20 17:54:54. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00003 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         0.02036 |
+| time_total_s                             3.17915 |
+| training_iteration                             2 |
+| mean_accuracy                            0.33333 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00001 finished iteration 10 at 2024-06-20 17:54:54. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00001 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         0.01233 |
+| time_total_s                             3.20211 |
+| training_iteration                            10 |
+| mean_accuracy                                0.6 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00001 finished iteration 11 at 2024-06-20 17:54:54. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00001 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                          0.0089 |
+| time_total_s                             3.21101 |
+| training_iteration                            11 |
+| mean_accuracy                                0.6 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00003 finished iteration 3 at 2024-06-20 17:54:54. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00003 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         0.02542 |
+| time_total_s                             3.20457 |
+| training_iteration                             3 |
+| mean_accuracy                                0.6 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00002 finished iteration 1 at 2024-06-20 17:54:54. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00002 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         3.18908 |
+| time_total_s                             3.18908 |
+| training_iteration                             1 |
+| mean_accuracy                            0.63333 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00001 finished iteration 12 at 2024-06-20 17:54:54. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00001 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         0.01677 |
+| time_total_s                             3.22778 |
+| training_iteration                            12 |
+| mean_accuracy                                0.9 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00003 finished iteration 4 at 2024-06-20 17:54:54. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00003 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         0.02084 |
+| time_total_s                             3.22541 |
+| training_iteration                             4 |
+| mean_accuracy                                0.7 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00002 finished iteration 2 at 2024-06-20 17:54:54. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00002 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         0.01242 |
+| time_total_s                              3.2015 |
+| training_iteration                             2 |
+| mean_accuracy                                0.7 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00001 finished iteration 13 at 2024-06-20 17:54:54. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00001 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         0.01359 |
+| time_total_s                             3.24137 |
+| training_iteration                            13 |
+| mean_accuracy                                0.9 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00003 finished iteration 5 at 2024-06-20 17:54:54. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00003 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         0.01717 |
+| time_total_s                             3.24257 |
+| training_iteration                             5 |
+| mean_accuracy                                0.7 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00002 finished iteration 3 at 2024-06-20 17:54:54. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00002 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         0.01786 |
+| time_total_s                             3.21936 |
+| training_iteration                             3 |
+| mean_accuracy                                0.7 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00001 finished iteration 14 at 2024-06-20 17:54:54. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00001 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         0.01786 |
+| time_total_s                             3.25922 |
+| training_iteration                            14 |
+| mean_accuracy                                0.8 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00002 finished iteration 4 at 2024-06-20 17:54:54. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00002 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         0.00839 |
+| time_total_s                             3.22775 |
+| training_iteration                             4 |
+| mean_accuracy                                0.7 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00003 finished iteration 6 at 2024-06-20 17:54:54. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00003 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         0.02438 |
+| time_total_s                             3.26695 |
+| training_iteration                             6 |
+| mean_accuracy                                0.7 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00001 finished iteration 15 at 2024-06-20 17:54:54. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00001 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         0.01681 |
+| time_total_s                             3.27603 |
+| training_iteration                            15 |
+| mean_accuracy                                0.7 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00001 completed after 15 iterations at 2024-06-20 17:54:54. Total running time: 14s
+
+Trial train_model_109cf_00002 finished iteration 5 at 2024-06-20 17:54:54. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00002 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         0.01397 |
+| time_total_s                             3.24172 |
+| training_iteration                             5 |
+| mean_accuracy                                0.7 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00003 finished iteration 7 at 2024-06-20 17:54:54. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00003 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         0.01689 |
+| time_total_s                             3.28384 |
+| training_iteration                             7 |
+| mean_accuracy                                0.7 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00002 finished iteration 6 at 2024-06-20 17:54:54. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00002 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         0.01062 |
+| time_total_s                             3.25233 |
+| training_iteration                             6 |
+| mean_accuracy                                0.7 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00003 finished iteration 8 at 2024-06-20 17:54:54. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00003 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         0.02246 |
+| time_total_s                              3.3063 |
+| training_iteration                             8 |
+| mean_accuracy                                0.7 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00002 finished iteration 7 at 2024-06-20 17:54:54. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00002 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         0.01272 |
+| time_total_s                             3.26505 |
+| training_iteration                             7 |
+| mean_accuracy                                0.7 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00002 finished iteration 8 at 2024-06-20 17:54:54. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00002 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         0.01885 |
+| time_total_s                             3.28391 |
+| training_iteration                             8 |
+| mean_accuracy                                0.7 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00003 finished iteration 9 at 2024-06-20 17:54:54. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00003 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         0.01934 |
+| time_total_s                             3.32564 |
+| training_iteration                             9 |
+| mean_accuracy                                0.7 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00002 finished iteration 9 at 2024-06-20 17:54:54. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00002 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         0.00998 |
+| time_total_s                             3.29389 |
+| training_iteration                             9 |
+| mean_accuracy                                0.7 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00003 finished iteration 10 at 2024-06-20 17:54:54. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00003 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         0.01208 |
+| time_total_s                             3.33772 |
+| training_iteration                            10 |
+| mean_accuracy                                0.7 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00002 finished iteration 10 at 2024-06-20 17:54:54. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00002 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                          0.0156 |
+| time_total_s                             3.30949 |
+| training_iteration                            10 |
+| mean_accuracy                                0.7 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00002 completed after 10 iterations at 2024-06-20 17:54:54. Total running time: 14s
+
+Trial train_model_109cf_00003 finished iteration 11 at 2024-06-20 17:54:54. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00003 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         0.01878 |
+| time_total_s                              3.3565 |
+| training_iteration                            11 |
+| mean_accuracy                            0.73333 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00003 finished iteration 12 at 2024-06-20 17:54:54. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00003 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         0.01575 |
+| time_total_s                             3.37225 |
+| training_iteration                            12 |
+| mean_accuracy                                0.7 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00003 finished iteration 13 at 2024-06-20 17:54:54. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00003 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         0.01576 |
+| time_total_s                             3.38801 |
+| training_iteration                            13 |
+| mean_accuracy                                0.7 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00003 finished iteration 14 at 2024-06-20 17:54:54. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00003 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         0.01489 |
+| time_total_s                              3.4029 |
+| training_iteration                            14 |
+| mean_accuracy                                0.7 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00003 finished iteration 15 at 2024-06-20 17:54:54. Total running time: 14s
++--------------------------------------------------+
+| Trial train_model_109cf_00003 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         0.01173 |
+| time_total_s                             3.41462 |
+| training_iteration                            15 |
+| mean_accuracy                                0.7 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00003 completed after 15 iterations at 2024-06-20 17:54:54. Total running time: 14s
+
+Trial train_model_109cf_00004 started with configuration:
++--------------------------------------------------+
+| Trial train_model_109cf_00004 config             |
++--------------------------------------------------+
+| batch_size                                    16 |
+| epochs                                         5 |
+| hidden_size                                   32 |
+| lr                                       0.00187 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00004 finished iteration 1 at 2024-06-20 17:55:03. Total running time: 23s
++--------------------------------------------------+
+| Trial train_model_109cf_00004 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         1.24105 |
+| time_total_s                             1.24105 |
+| training_iteration                             1 |
+| mean_accuracy                            0.43333 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00004 finished iteration 2 at 2024-06-20 17:55:03. Total running time: 23s
++--------------------------------------------------+
+| Trial train_model_109cf_00004 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                               0 |
+| time_total_s                             1.24105 |
+| training_iteration                             2 |
+| mean_accuracy                            0.36667 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00004 finished iteration 3 at 2024-06-20 17:55:03. Total running time: 23s
++--------------------------------------------------+
+| Trial train_model_109cf_00004 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                         0.00945 |
+| time_total_s                              1.2505 |
+| training_iteration                             3 |
+| mean_accuracy                            0.16667 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00004 finished iteration 4 at 2024-06-20 17:55:03. Total running time: 23s
++--------------------------------------------------+
+| Trial train_model_109cf_00004 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                               0 |
+| time_total_s                              1.2505 |
+| training_iteration                             4 |
+| mean_accuracy                            0.36667 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00004 finished iteration 5 at 2024-06-20 17:55:03. Total running time: 24s
++--------------------------------------------------+
+| Trial train_model_109cf_00004 result             |
++--------------------------------------------------+
+| checkpoint_dir_name                              |
+| time_this_iter_s                               0 |
+| time_total_s                              1.2505 |
+| training_iteration                             5 |
+| mean_accuracy                            0.46667 |
++--------------------------------------------------+
+
+Trial train_model_109cf_00004 completed after 5 iterations at 2024-06-20 17:55:03. Total running time: 24s
+
+Trial status: 5 TERMINATED
+Current time: 2024-06-20 17:55:03. Total running time: 24s
+Logical resource usage: 1.0/4 CPUs, 0/0 GPUs
++-------------------------------------------------------------------------------------------------------------------------------------+
+| Trial name                status         hidden_size            lr     batch_size     epochs        acc     iter     total time (s) |
++-------------------------------------------------------------------------------------------------------------------------------------+
+| train_model_109cf_00000   TERMINATED              16   0.00191099              64          5   0.233333        5            3.13241 |
+| train_model_109cf_00001   TERMINATED               8   0.00302016              64         15   0.7            15            3.27603 |
+| train_model_109cf_00002   TERMINATED              16   0.000233114             64         10   0.7            10            3.30949 |
+| train_model_109cf_00003   TERMINATED               8   0.0036796               32         15   0.7            15            3.41462 |
+| train_model_109cf_00004   TERMINATED              32   0.00186635              16          5   0.466667        5            1.2505  |
++-------------------------------------------------------------------------------------------------------------------------------------+
+
+Best hyperparameters: {'hidden_size': 8, 'lr': 0.0030201588979530316, 'batch_size': 64, 'epochs': 15}
